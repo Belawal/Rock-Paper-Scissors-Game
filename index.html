@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/204be068aa.js" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <div class="game-container"><!-- Game Container-->
+        <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+
+        <div class="choices">
+            <button class="choice" data-choice="rock"><i class="fas fa-hand-rock"></i>
+            </button>
+            <button class="choice" data-choice="paper"><i class="fas fa-hand-paper"></i>
+            </button>
+            <button class="choice" data-choice="scissors"><i class="fas fa-hand-scissors"></i>
+            </button>
+            <button class="choice" data-choice="lizard"><i class="fas fa-hand-lizard"></i>
+            </button>
+            <button class="choice" data-choice="spock"><i class="fas fa-hand-spock"></i>
+            git comiit</button>
+        </div>
+
+        <div class="result">
+            <p id="result-text"></p>
+            <p id="computer-choice-text"></p>
+        </div>
+
+        <div class="tries"> <p id="tries-text">Tries Left: 5</p>
+        </div>
+
+    </div>
+
+    <div class="score-container">
+
+        <div class="score-board">
+            <div class="score" id="player-score">Player: 0
+            </div>
+            <div class="score" id="computer-score">Computer: 0
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div id="chart-div"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

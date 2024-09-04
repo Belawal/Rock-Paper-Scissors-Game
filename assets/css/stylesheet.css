@@ -14,3 +14,21 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+/* Containers */
+.game-container, .score-container {
+    max-width: 90%;
+    width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.game-container {
+    background-color: #ffffff;
+}
+
+.score-container {
+    background-color: #f8f9fa;
+}
