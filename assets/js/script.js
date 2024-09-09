@@ -82,3 +82,27 @@ for (let choices of choices ){
         }
     }
 }
+ // Function to update scores based on the round winner
+ function updateScores(winner) {
+    if (winner === 'player') {
+        playerScore += 1; // Increment player score if player wins
+    } else if (winner === 'computer') {
+        computerScore += 1; // Increment computer score if computer wins
+    }
+
+    // Update the score display elements with the current scores
+    playerScoreDisplay.textContent = 'Player: ' + playerScore;
+    computerScoreDisplay.textContent = 'Computer: ' + computerScore;
+}
+// Function to update the display after each round
+function updateDisplay(playerChoice, computerChoice, winner) {
+    // Display the player's choice, computer's choice, and the round result
+    resultDisplay.innerHTML = 'You chose ' + playerChoice + ', Computer chose ' + computerChoice + '. ';
+    if (winner === 'draw') {
+        resultDisplay.innerHTML += "It's a draw!";
+    } else if (winner === 'player') {
+        resultDisplay.innerHTML += "You win!";
+    } else {
+        resultDisplay.innerHTML += "Computer wins!";
+    }
+}
