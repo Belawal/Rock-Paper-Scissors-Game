@@ -106,3 +106,24 @@ function updateDisplay(playerChoice, computerChoice, winner) {
         resultDisplay.innerHTML += "Computer wins!";
     }
 }
+// Function to handle the end of the game
+function endGame() {
+    // Disable all choice buttons by removing the event listeners
+    for (let i = 0; i < choices.length; i++) {
+        choices[i].removeEventListener('click', function() {});
+    }
+
+    // Determine the final winner based on scores and display a final message
+    let finalMessage = '';
+    if (playerScore > computerScore) {
+        finalMessage = 'Congratulations! You won the game! 🎉';
+    } else if (playerScore < computerScore) {
+        finalMessage = 'Sorry, you lost the game. Better luck next time!';
+    } else {
+        finalMessage = "It's a draw overall!";
+    }
+
+    // Append the final message to the result display
+    resultDisplay.innerHTML += '<br><strong>' + finalMessage + '</strong>';
+}
+});
