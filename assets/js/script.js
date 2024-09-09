@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     
     const choices = document.getElementsByClassName('choice'); //choices from button
-    const resutDisplay = documnet.getElementById('result-text'); //game resut display
+    const resutDisplay = document.getElementById('result-text'); //game resut display
     const playerScoreDisplay = document.getElementById('player-score'); //player score display
     const computerScoreDisplay = document.getElementById('computer-score'); //Computer score display
     const triesDisplay = docment.getElementById('tries -text');//number of tries left
