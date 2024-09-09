@@ -46,3 +46,39 @@ for (let choices of choices ){
     const randomIndex = Math.floor(Math.random() * choices.length); // Pick a random index
     return choices[randomIndex]; // Return the computer's choice
 }
+  // Function to determine the winner of the round
+  function determineWinner(player, computer) {
+    if (player === computer) {
+        return 'draw'; // It's a draw if choices are the same
+    } else if (player === 'rock') {
+        if (computer === 'scissors' || computer === 'lizard') {
+            return 'player'; // Rock beats scissors and lizard
+        } else {
+            return 'computer'; // Rock loses to paper and spock
+        }
+    } else if (player === 'paper') {
+        if (computer === 'rock' || computer === 'spock') {
+            return 'player'; // Paper beats rock and spock
+        } else {
+            return 'computer'; // Paper loses to scissors and lizard
+        }
+    } else if (player === 'scissors') {
+        if (computer === 'paper' || computer === 'lizard') {
+            return 'player'; // Scissors beat paper and lizard
+        } else {
+            return 'computer'; // Scissors lose to rock and spock
+        }
+    } else if (player === 'lizard') {
+        if (computer === 'spock' || computer === 'paper') {
+            return 'player'; // Lizard beats spock and paper
+        } else {
+            return 'computer'; // Lizard loses to rock and scissors
+        }
+    } else if (player === 'spock') {
+        if (computer === 'scissors' || computer === 'rock') {
+            return 'player'; // Spock beats scissors and rock
+        } else {
+            return 'computer'; // Spock loses to paper and lizard
+        }
+    }
+}
