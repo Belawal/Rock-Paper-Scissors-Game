@@ -1,131 +1,34 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ROCK PAPER SCISSORS LIZARD SPOCK (PROJECT TWO) 
+As a developer, I want to make a Rock-Paper-Scissors game with HTML, CSS, and JavaScript so people can play and have fun." Features: Simple User Interface: The game has easy-to-click buttons for Rock, Paper, and Scissors. It looks clean and simple because of CSS styling. Game Logic: JavaScript runs the game by checking the player’s choice against a random computer choice and deciding who wins. It also keeps track of the scores and shows them on the screen. Immediate Feedback: After each round, the game shows what the player and computer picked and whether the player won, lost, or tied. It updates the scores right away. Testing: Debugging: I used the console log tool in the browser to find and fix errors in the JavaScript code, like spelling mistakes and missing symbols that messed up the game. Fixing File Links: A big problem was the game crashing because the JavaScript and CSS files weren’t linked right in the HTML. I deleted everything and started over twice before finding out it was just a linking error. Fixing the links made the game work properly. Checking Functionality: I tested every part of the game, making sure the buttons worked, the right winner was shown, and the scores updated. I played through a bunch of rounds to be sure everything was right. Tutor Help: My tutor, Patrick Rory, helped me a lot, showing me how to find bugs and reminding me to check things step by step. His help was really important in getting the game working.
 
-Welcome Belawal Khan,
+Testing site responsiveness screenshots of the results of the tested screen sizes:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Screen responsive size for Monitor 1920x1080
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+Screen Responsive size for Tablet 1366x1024
 
-## Gitpod Reminders
+Screen Responsive size for Mobile 360x 640
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Testing validation (HTML, CSS, etc.), with accompanying screenshots. HTML Errors from W3 Validator
 
-`python3 -m http.server`
+Error 1 :
 
-A blue button should appear to click: _Make Public_,
+Solution:
 
-Another blue button should appear to click: _Open Browser_.
+CSS Errors from W3 Vadidator
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+*NOTE : The reason for there are no errors shown is because this css file has been edited and deleted multiple times in the process of creating the program the error and functionality of its was being corrected and were unable to take note of the errors from the original fie stylesheet.css file .
 
-A blue button should appear to click: _Make Public_,
+Accessibility testing (using tools such as https://wave.webaim.org/), with accompanying screenshots.
 
-Another blue button should appear to click: _Open Browser_.
+5 Errors for Empty Buttons. Solution: Did not affect actual game nor the functionality
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1 Alert for No page region: Solution: Did not affect actual game nor the functionality
 
-To log into the Heroku toolbelt CLI:
+Browser testing with accompanying screenshots of each tested browser rendering the site.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This is a website called PowerMapper where it checks if your site is accessible on various web browsers. As you can see it has checked the compatibility of the following web browsers of various platforms.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+Conclusion I encountered several issues that caused the game to malfunction. The main problems were numerous spelling errors in my JavaScript code, which prevented the game from properly registering player choices and updating the scores. Additionally, I had linking errors between my HTML, CSS, and JavaScript files, which meant the scripts and styles were not loading as intended. This caused further complications, like buttons not working correctly and the game's layout appearing broken. To resolve these issues, I utilized the console log method in the browser's inspect tool, which allowed me to debug the JavaScript code line by line. This process helped me identify the specific lines where spelling mistakes were causing errors. My tutor, Patrick Rory, guided me through each step of troubleshooting, teaching me how to systematically check for errors and correct the links between the files. With his assistance, I was able to refine my code, fix the spelling mistakes, and ensure all files were correctly connected, ultimately getting my game to work as expected. In addition to the spelling errors and linking issues, I encountered several simple yet frustrating mistakes that added to my struggles. For instance, I missed a few semicolons and parentheses in my JavaScript code, which caused unexpected behavior and errors that were not immediately obvious. There were also syntax errors like missing curly braces that broke the flow of my functions. To fix these, I meticulously combed through each line of code, using console logs to pinpoint exactly where the code was failing. Patrick Rory’s guidance was invaluable during this process; he showed me how small mistakes could snowball into bigger issues, and he encouraged me to stay patient and methodical. Despite these efforts, the game kept crashing at the very end, and I mistakenly believed the entire code was corrupted. In my frustration, I ended up deleting the entire set of files and starting over twice, only to later discover that the root of the problem was a simple linking error between my JavaScript file and the HTML. This oversight cost me a lot of time and effort, but it was a valuable lesson in the importance of checking file paths and links early on in the troubleshooting process. Ultimately, with persistence and some help from my tutor, I managed to fix the linking issues, and the game finally ran smoothly as intended.
 
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Editing Rock-Paper-Scissors-Game/README.md at main · Belawal/Rock-Paper-Scissors-Game 
