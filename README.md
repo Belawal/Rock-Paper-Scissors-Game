@@ -7,26 +7,32 @@ Screen responsive size for Monitor 1920x1080
 <img src="assets/images/1920x1080.png" >
 
 Screen Responsive size for Tablet 1366x1024
+<img src="assets/images/1366x1040.png" >
 
 Screen Responsive size for Mobile 360x 640
+<img src="assets/images/360x640.png" >
+
 
 Testing validation (HTML, CSS, etc.), with accompanying screenshots. HTML Errors from W3 Validator
+<img src="assets/images/htmlValidator.png">
 
 Error 1 :
 
 Solution:
 
 CSS Errors from W3 Vadidator
-
+<img src="assets/images/cssValidator.png">
 *NOTE : The reason for there are no errors shown is because this css file has been edited and deleted multiple times in the process of creating the program the error and functionality of its was being corrected and were unable to take note of the errors from the original fie stylesheet.css file .
 
 Accessibility testing (using tools such as https://wave.webaim.org/), with accompanying screenshots.
+<img src="assets/images/waveError.png">
 
 5 Errors for Empty Buttons. Solution: Did not affect actual game nor the functionality
 
 1 Alert for No page region: Solution: Did not affect actual game nor the functionality
 
 Browser testing with accompanying screenshots of each tested browser rendering the site.
+<img src="assets/images/browsers.png">
 
 This is a website called PowerMapper where it checks if your site is accessible on various web browsers. As you can see it has checked the compatibility of the following web browsers of various platforms.
 
