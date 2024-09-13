@@ -52,6 +52,16 @@ Browser testing with accompanying screenshots of each tested browser rendering t
 
 This is a website called PowerMapper where it checks if your site is accessible on various web browsers. As you can see it has checked the compatibility of the following web browsers of various platforms.
 
+Deployment:
+This was deployed to Github page, the steps below were taken for deployment:
+•	Opened Github
+•	Selected my repository
+•	Opened setting in the selected repository.
+•	Went to github pages
+•	Selected deploy source from none to main and save.
+•	Then refreshed page went to deployment section on top. 
+•	 the following link was given:
+https://belawal.github.io/Rock-Paper-Scissors-Game/
 Conclusion:
 I encountered several issues that caused the game to malfunction. The main problems were numerous spelling errors in my JavaScript code, which prevented the game from properly registering player choices and updating the scores. Additionally, I had linking errors between my HTML, CSS, and JavaScript files, which meant the scripts and styles were not loading as intended. 
 This caused further complications, like buttons not working correctly and the game's layout appearing broken. 
