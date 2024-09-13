@@ -4,7 +4,7 @@ As a developer, I want to make a Rock-Paper-Scissors game with HTML, CSS, and Ja
 Testing site responsiveness screenshots of the results of the tested screen sizes:
 
 Screen responsive size for Monitor 1920x1080
-<img src="assets/images/1920x1080.png" width="100">
+<img src="assets/images/1920x1080.png" >
 
 Screen Responsive size for Tablet 1366x1024
 
