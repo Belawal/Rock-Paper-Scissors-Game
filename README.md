@@ -19,14 +19,13 @@ Tutor Help: My tutor, Patrick Rory, helped me a lot, showing me how to find bugs
 
 Testing site responsiveness screenshots of the results of the tested screen sizes:
 
+<img src="assets/images/responsivescreens.png>
+
 Screen responsive size for Monitor 1920x1080
-<img src="assets/images/1920x1080.png" >
 
 Screen Responsive size for Tablet 1366x1024
-<img src="assets/images/1366x1040.png" >
 
 Screen Responsive size for Mobile 360x 640
-<img src="assets/images/360x640.png" >
 
 
 Testing validation (HTML, CSS, etc.), with accompanying screenshots. HTML Errors from W3 Validator
