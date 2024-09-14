@@ -19,7 +19,7 @@ Tutor Help: My tutor, Patrick Rory, helped me a lot, showing me how to find bugs
 
 Testing site responsiveness screenshots of the results of the tested screen sizes:
 
-<img src="assets/images/responsivescreens.png>
+<img src="assets/images/responsive.png">
 
 Screen responsive size for Monitor 1920x1080
 
@@ -33,7 +33,7 @@ Testing validation (HTML, CSS, etc.), with accompanying screenshots. HTML Errors
 
 Error 1 :
 
-Solution:
+Solution: I took deleted the space in the computer.
 
 CSS Errors from W3 Vadidator
 <img src="assets/images/cssvalidator.png">
@@ -42,9 +42,9 @@ CSS Errors from W3 Vadidator
 Accessibility testing (using tools such as https://wave.webaim.org/), with accompanying screenshots.
 <img src="assets/images/waveerror.png">
 
-5 Errors for Empty Buttons. Solution: Did not affect actual game nor the functionality
+5 Errors for Empty Buttons. Solution: I added aria label to each button with its name.
 
-1 Alert for No page region: Solution: Did not affect actual game nor the functionality
+1 Alert for No page region: Solution: i added main section with in the html to compy with region error.
 
 Browser testing with accompanying screenshots of each tested browser rendering the site.
 <img src="assets/images/browsers.png">
@@ -61,6 +61,7 @@ This was deployed to Github page, the steps below were taken for deployment:
 •	Then refreshed page went to deployment section on top. 
 •	 the following link was given:
 https://belawal.github.io/Rock-Paper-Scissors-Game/
+
 Conclusion:
 I encountered several issues that caused the game to malfunction. The main problems were numerous spelling errors in my JavaScript code, which prevented the game from properly registering player choices and updating the scores. Additionally, I had linking errors between my HTML, CSS, and JavaScript files, which meant the scripts and styles were not loading as intended. 
 This caused further complications, like buttons not working correctly and the game's layout appearing broken. 
