@@ -30,18 +30,18 @@ Screen Responsive size for Mobile 360x 640
 
 
 Testing validation (HTML, CSS, etc.), with accompanying screenshots. HTML Errors from W3 Validator
-<img src="assets/images/htmlValidator.png">
+<img src="assets/images/htmlvalidator.png">
 
 Error 1 :
 
 Solution:
 
 CSS Errors from W3 Vadidator
-<img src="assets/images/cssValidator.png">
+<img src="assets/images/cssvalidator.png">
 *NOTE : The reason for there are no errors shown is because this css file has been edited and deleted multiple times in the process of creating the program the error and functionality of its was being corrected and were unable to take note of the errors from the original fie stylesheet.css file .
 
 Accessibility testing (using tools such as https://wave.webaim.org/), with accompanying screenshots.
-<img src="assets/images/waveError.png">
+<img src="assets/images/waveerror.png">
 
 5 Errors for Empty Buttons. Solution: Did not affect actual game nor the functionality
 
